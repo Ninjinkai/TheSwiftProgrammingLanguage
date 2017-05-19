@@ -11,3 +11,8 @@ green = 200
 blue = 300
 print(red, green, blue)
 print("Red: \(red), z: \(z)", terminator: "\n")
+
+let http404Error = (404, "Page not found")
+let (statusCode, statusMessage) = http404Error
+print("Error: \(statusCode).")
+print("Message: \(statusMessage)")
