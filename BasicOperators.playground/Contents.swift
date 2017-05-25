@@ -1,5 +1,14 @@
-//: Playground - noun: a place where people can play
+let (a, b, c, d) = (1, 2, 3, 4)
+(a, c) < (b, d)
+(a + b, c + d) == (c, b * c + a)
+if (a + b) != c {
+    print(c)
+}
+else {
+    print("Wrong")
+}
+(a + b) == c ? print(c) : print ("Wrong")
 
-import Cocoa
-
-var str = "Hello, playground"
+let thing = "Thing"
+var something: String?
+something ?? thing
